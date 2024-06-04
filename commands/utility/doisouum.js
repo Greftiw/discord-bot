@@ -3,7 +3,7 @@ const { SlashCommandBuilder, ButtonBuilder, ButtonStyle, ActionRowBuilder } = re
 module.exports = {
 	data: new SlashCommandBuilder()
 		.setName('2ou1')
-		.setDescription('Faz que o jogador possa escolher entre os números dois ou um.'),
+		.setDescription('Faz que o jogador possa escolher entre os números dois ou um e gera um novo lance da partida.'),
 	async execute(interaction) {
 
 		const dois = new ButtonBuilder()
